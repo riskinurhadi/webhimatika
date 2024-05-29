@@ -1,0 +1,38 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+
+/* Navbar Style */
+
+.navbar-brand {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+.nav-link.active {
+  font-weight: 400;
+}
+
+/* Hero */
+#Hero{
+  background-image:url("/asset/img/Hero1.png");
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 60px;
+  font-size: 42px;
+  line-height: 50px;
+}
+
+.hero-tagline p{
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
