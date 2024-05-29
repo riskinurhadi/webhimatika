@@ -3,6 +3,9 @@ body {
 }
 
 /* Navbar Style */
+#Navbar {
+  background-color: aqua;
+}
 
 .navbar-brand {
   font-weight: 500;
@@ -19,9 +22,17 @@ body {
 /* Hero */
 #Hero{
   background-image:url("/asset/img/Hero1.png");
+  background-repeat: no-repeat;
+    background-size: cover;
   height: 100vh;
   width: 100%;
 }
+
+.background-image {
+height: 10%;
+width: 10%;
+}
+
 
 .hero-tagline h1 {
   color: #fff;
@@ -35,4 +46,15 @@ body {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 40px;
+  line-height: 30px;
+}
+
+.button-lg-primary {
+width: 237px;
+height: 50px;
+background-color: #fff;
+color: aqua;
+border: none;
+font-size: 15px;
+font-weight: bold;
 }
