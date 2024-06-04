@@ -28,7 +28,7 @@
 
     <!-- navbar -->
     <section id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light posisition-fixed w-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="asset/img/logo hima.png" alt="" width="30" 
@@ -54,7 +54,7 @@
               >
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" href="#about"
                 >Visi Misi</a
               >
             </li>
@@ -69,7 +69,7 @@
               >
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" href="#contact"
                 >Contact</a
               >
             </li>
@@ -96,14 +96,14 @@
 
 <!-- Akhir-Hero -->
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container mt-5">
+    <section id="about" class="mb-5">
+      <div class="container ">
         <div class="row">
-          <h1 class="text-center display-4 mb-5">About Us</h1>
+          <h1 class="text-center display-4 mt-4 mb-5"> <br>About Us</h1>
           <div class="col-lg-6 text-center">
             <img
               src="/asset/img/About.jpg"
-              class="img-fluid"
+              class="img-fluid "
               alt=""
             />
           </div>
@@ -118,15 +118,116 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e3edff"
-          fill-opacity="1"
-          d="M0,160L80,149.3C160,139,320,117,480,133.3C640,149,800,203,960,213.3C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        ></path>
-      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L60,213.3C120,203,240,181,360,197.3C480,213,600,267,720,266.7C840,267,960,213,1080,192C1200,171,1320,181,1380,186.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </section>
     <!-- End About Section -->
+
+    <!--  Contact Section  -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header text-center mt-5 mb-5">
+          <h1 class="display-4 mt-5"> <br>Contact</h1>
+        </header>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="row gy-4 text-center">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Tamantirto, Kasihan<br />Bantul, Yogyakarta</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+62 823 7186 9118<br />+62 856 0904 9686</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>rizkibinmangtrisno@gmail.com<br />riskinurhadi@my.id</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday<br />9:00AM - 05:00PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form
+              action="forms/contact.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control shadow-sm"
+                    placeholder="Masukan Nama"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control shadow-sm"
+                    name="email"
+                    placeholder="Masukan Email"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control shadow-sm"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <textarea
+                    class="form-control shadow-sm"
+                    name="message"
+                    rows="6"
+                    placeholder="Tulis pesan disini"
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+
+                  <button class="button-lg-primary">Baca Selengkapnya</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+
+
 <section id="MAINTENANCE">
 <div class="container text-center mt-5">
   <div class="row">
